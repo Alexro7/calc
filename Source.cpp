@@ -55,7 +55,7 @@ int main()
 {
 	double a, b;
 	setlocale(LC_ALL, "rus");
-	cout << "Ââåäèòå à è b" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a Ð¸ b" << endl;
 	cin >> a >> b;
 	cout << a << "+" << b << "=" << sum(a, b) << endl << a << "-" << b << "=" << vic(a, b) << endl << a << "*" << b << "=" << umn(a, b) << endl;
 	cout << a << "/" << b << "=" << del(a, b) << endl << a << "^" << b << "=" << st(a, b) << endl;
